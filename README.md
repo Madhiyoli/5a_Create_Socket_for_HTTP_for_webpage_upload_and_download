@@ -18,6 +18,7 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 
 ## Program 
 client
+```
 import socket
 s=socket.socket()
 s.connect(("localhost",8080))
@@ -29,9 +30,9 @@ else:
     msg=input("Enter data to upload: ")
     s.send(("POST / HTTP/1.1\nHost: localhost\n\n"+msg).encode())
     print(s.recv(1024).decode())
-s.close()```
-
+s.close()
 ```
+
 server
 ```
 import socket
@@ -57,11 +58,9 @@ while True:
     c.close()
 
 ```
-
-
 ## OUTPUT
-image.png
-image copy.png
+Screenshot 2026-03-16 180226.png
+server.py.png
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
 
