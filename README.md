@@ -57,8 +57,11 @@ while True:
     c.close()
 
 ```
+
+
 ## OUTPUT
 image.png
 image copy.png
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
+
