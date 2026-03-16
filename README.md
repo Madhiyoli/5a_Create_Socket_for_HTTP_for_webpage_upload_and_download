@@ -59,8 +59,8 @@ while True:
 
 ```
 ## OUTPUT
-Screenshot 2026-03-16 180226.png
-server.py.png
+![alt text](<Screenshot 2026-03-16 180226.png>)
+![alt text](server.py.png)
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
 
